@@ -32,6 +32,7 @@ function Product() {
             <div className="product-page__product">
               <h3>Title: {product.title}</h3>
               <p>ID: {id}</p>
+              
               <p>Description: {product.description}</p>
             </div>
             <Link to={`/checkout/${product.id}`}>
