@@ -10,6 +10,7 @@ import {
   Login,
   Product,
   SignUp,
+  Error,
 } from "./pages";
 import { AccountProvider } from "./context";
 import "./index.scss";
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path:"/Error",
+    element: <Error />,
   },
   {
     path: "/admin",
