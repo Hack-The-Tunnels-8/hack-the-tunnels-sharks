@@ -6,7 +6,9 @@
 
   &__products {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2%;
 
     a {
       text-decoration: none;
